@@ -1,0 +1,4 @@
+asgiref==3.6.0
+Django==4.2
+PaqueteSegundaEntrega @ file:///C:/Users/bogac/Codigos/django/PaqueteSegundaEntrega-1.0.tar.gz#sha256=949d9d29e3d81f937abd4b3fd83c6530b84f6fce1ea582b88885768b5d963bda
+sqlparse==0.4.4

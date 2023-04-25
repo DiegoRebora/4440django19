@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+  
+  
+    SI ESTO ES USAR PLANTILLAS, BIENVENIDO ESE PIE PLANO
+    <p style="color:red">Mi nombre es: {{nombre}}</p>
+    <p style="color:green">Mi apellido es: {{apellido}}</p>
+    <h1>Este template fue creado {{ahora}}</h1>
+    <h3>Las notas fueron:</h3>
+
+    <p>
+    {% for n in notas %}
+        {% if n < 4}
+            <p style="color:red"> NOTA MALA,{{n}} BURRO</p>
+        {% else %} <p style="color:blue"> NOTA BUENA,{{n}} BIEN GENIO</p>
+        {% endif %}
+    {% endfor  %}
+    <p>
+    
+
+
+
+
+
+
+
+
+
+
+    </p>
+
+
+
+
+</body>
+</html>
