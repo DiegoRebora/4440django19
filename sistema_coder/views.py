@@ -65,4 +65,14 @@ def plantillaconlista(self): ##SIRVE A SU VEZ PARA BUCLES Y CONDICIONALES, VER T
     documento = plantilla.render(micontexto)
     return HttpResponse(documento)
 
+def saludar_con_html(request):
+    contexto = {}
+    http_responde = render(
+        request=request,
+        template_name= r"C:\Users\bogac\Codigos\django\sistema_coder\ControlEstudio\templates\ControlEstudio\base.html",
+        context=contexto,
+    )
+    return http_responde
+    
+
 
